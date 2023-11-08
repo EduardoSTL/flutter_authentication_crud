@@ -1,16 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_authentication_crud/config/router/app_router.dart';
+import 'package:flutter_authentication_crud/config/theme/app_theme.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: appRouter,
+      theme: AppTheme().getTheme(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
+
