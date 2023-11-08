@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_authentication_crud/features/shared/shared.dart';
+import 'package:flutter_authentication_crud/features/shared/infraestructure/widgets/side_menu.dart';
 
 class ProductsScreen extends StatelessWidget {
   const ProductsScreen({super.key});

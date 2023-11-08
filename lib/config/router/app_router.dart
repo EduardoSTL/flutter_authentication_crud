@@ -1,6 +1,6 @@
-import 'package:flutter_authentication_crud/features/auth/presentation/login_screen.dart';
-import 'package:flutter_authentication_crud/features/auth/presentation/register_screen.dart';
-import 'package:flutter_authentication_crud/features/products/products.dart';
+import 'package:flutter_authentication_crud/features/auth/presentation/screens/login_screen.dart';
+import 'package:flutter_authentication_crud/features/auth/presentation/screens/register_screen.dart';
+import 'package:flutter_authentication_crud/features/products/presentation/screens/products_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(
@@ -17,5 +17,5 @@ final appRouter = GoRouter(
     builder: (context, state) => const ProductsScreen(),),    
   ],
   
-  ///! TODO: Bloquear si no se esta autenticando de alguna manera
+  //! TODO: Bloquear si no se esta autenticando de alguna manera
 );

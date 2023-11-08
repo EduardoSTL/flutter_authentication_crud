@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_authentication_crud/features/shared/shared.dart';
+import 'package:flutter_authentication_crud/features/shared/infraestructure/widgets/custom_filled_button.dart';
 
 class SideMenu extends StatefulWidget {
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_authentication_crud/features/shared/widgets/custom_filled_button.dart';
-import 'package:flutter_authentication_crud/features/shared/widgets/custom_text_form_field.dart';
-import 'package:flutter_authentication_crud/features/shared/widgets/geometrical_background.dart';
+import 'package:flutter_authentication_crud/features/shared/infraestructure/widgets/custom_filled_button.dart';
+import 'package:flutter_authentication_crud/features/shared/infraestructure/widgets/custom_text_form_field.dart';
+import 'package:flutter_authentication_crud/features/shared/infraestructure/widgets/geometrical_background.dart';
 import 'package:go_router/go_router.dart';
 
 class LoginScreen extends StatelessWidget {
